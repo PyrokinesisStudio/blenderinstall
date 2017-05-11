@@ -26,7 +26,7 @@ if (uname -m | grep '64'); then
   echo ""
   echo "Downloading 64-bit Blender"
   echo ""
-  wget http://download.blender.org/release/Blender2.78/blender-2.78b-linux-glibc219-x86_64.tar.bz2
+  wget http://download.blender.org/release/Blender2.78/blender-2.78c-linux-glibc219-x86_64.tar.bz2
 #######################################################################
 
 ##Create Directory For Blender To Be Installed To
@@ -58,7 +58,7 @@ cd /home/$USER/blender
 echo ""
 echo "Extracting tarball...please wait"
 echo ""
-tar xvjf blender-2.78a-linux-glibc219-x86_64.tar.bz2
+tar xvjf blender-2.78c-linux-glibc219-x86_64.tar.bz2
 
 #######################################################################
 
@@ -68,7 +68,7 @@ tar xvjf blender-2.78a-linux-glibc219-x86_64.tar.bz2
 else
   echo "ARCH: 32-bit"
   echo "Downloading 32-bit Blender"
-  wget http://download.blender.org/release/Blender2.78/blender-2.78b-linux-glibc219-i686.tar.bz2
+  wget http://download.blender.org/release/Blender2.78/blender-2.78c-linux-glibc219-i686.tar.bz2
 
   ##Create Directory For Blender To Be Installed To
 echo ""
@@ -96,7 +96,7 @@ cd /home/$USER/blender
 
 echo "Extracting tarball...please wait"
 
-tar xvjf blender-2.78a-linux-glibc219-i686.tar.bz2
+tar xvjf blender-2.78c-linux-glibc219-i686.tar.bz2
 
 fi
 
