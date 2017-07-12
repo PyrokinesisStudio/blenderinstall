@@ -13,8 +13,7 @@
 
 ##Checks architecture and installs 32 or 64bit blender
 
-## Author Mark C
-## Contact : blendedmarks@gmail.com
+## Author Mark C <BlendedMarks>
 
 ##I'll try to keep this up to date but it only works for 2.78a atm
 
